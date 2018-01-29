@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import MORA
+from MORA.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia, goslate
 import timeit
@@ -21,7 +21,7 @@ else:
     import urllib.request
     import urllib.parse
 
-cl = LINETCR.LINE()
+cl = MORA.LINE()
 #cl.login(qr=True)
 cl.login(token="Epa0J1lFMWCH4Pu2nUP5.FB71M2QkkIwofQXkk9ovDq.gSs6bMux8vmeVuT1gpaTmlWXLFrgDyMe+uZKnJ0OeRM=")
 cl.loginResult()
